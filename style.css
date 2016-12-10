@@ -1,0 +1,13 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(128,0,128)
+}
+
+img {
+    height: 100px;
+    margin: 0px ;
+    vertical-align: middle;
+}
