@@ -1,13 +1,78 @@
-.container {
+body {
+background: #bbb 
+}   
+.container-header {
     padding-right: 15px;
+    padding-bottom: 0px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background: rgb(128,0,128)
+    background: rgb(128,0,128);
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.image1 {
     height: 100px;
-    margin: 0px ;
+    margin: 10px ;
     vertical-align: middle;
+}
+
+li {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+a:link {
+    color: #555;
+
+}
+header { 
+  text-align: center;
+  background: #bbb;
+  font-size: large;
+  colour: white;
+}
+ 
+hr {
+    text-align: center
+}
+.container-portfolio { 
+  text-align: center;
+  background: #eee;
+  padding: 40px 0;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  font-size: large;
+  colour: white;
+}
+
+#portfolio img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+img {
+    vertical-align: middle;
+}
+
+.row {
+   margin-bottom: 40px;
+  }
+.container-contact { 
+  text-align: center;
+  background: #bbb;
+  padding: 0px 0;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+ .container-about { 
+  text-align: center;
+  background: rgb(128,0,128);
+  padding: 0px 0;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 1cm;
+ }
+
+.text3{
+  color: white;
 }
